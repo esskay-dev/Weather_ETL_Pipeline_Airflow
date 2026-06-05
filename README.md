@@ -1,4 +1,3 @@
-```markdown
 # Weather ETL Pipeline with Apache Airflow
 
 An automated ETL pipeline that extracts real-time weather data 
@@ -23,4 +22,3 @@ using Apache Airflow orchestrated on AWS EC2.
 - Data stored in AWS S3
 
 <img width="1280" height="479" alt="image" src="https://github.com/user-attachments/assets/d9732d3d-c5f9-4424-9dd9-b5530a1c3b20" />
-```
