@@ -1,22 +1,22 @@
-# Weather ETL Pipeline with Apache Airflow
+## Weather ETL Pipeline with Apache Airflow
 
 An automated ETL pipeline that extracts real-time weather data 
 from OpenWeatherMap API, transforms it, and loads it to AWS S3 
 using Apache Airflow orchestrated on AWS EC2.
 
-## Tools Used
+### Tools Used
 - Apache Airflow
 - AWS EC2
 - AWS S3
 - Python
 - Pandas
 
-## Pipeline Overview
-1. **Extract** : Fetches real-time weather data from OpenWeatherMap API
-2. **Transform** : Converts temperature from Kelvin to Fahrenheit and structures the data
-3. **Load** : Saves the transformed data as CSV files to AWS S3
+### Pipeline Overview
+1. **Extract**: Fetches real-time weather data from OpenWeatherMap API
+2. **Transform**: Converts temperature from Kelvin to Fahrenheit and structures the data
+3. **Load**: Saves the transformed data as CSV files to AWS S3
 
-## Setup
+### Setup
 - Deployed on AWS EC2 (Ubuntu)
 - Orchestrated with Apache Airflow
 - Data stored in AWS S3
